@@ -1,0 +1,13 @@
+[book]
+authors = ["Michael Wagner"]
+language = "en"
+multilingual = false
+src = "src"
+title = "OpenUSD Templates for the Industrial Metaverse"
+
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
